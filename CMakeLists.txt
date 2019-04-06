@@ -27,9 +27,14 @@ set(PKG_DEPS
     tf2_msgs
     tf2_sensor_msgs
     trajectory_msgs
-    visualization_msgs)
+    visualization_msgs
+    control_interface)
 
 find_package(catkin REQUIRED COMPONENTS ${PKG_DEPS})
+
+add_message_files(
+    DIRECTORY ../../actuation/control_interface/msg
+    FILES Excavator_Controller.msg)
 
 set(CMAKE_MODULE_PATH
     ${CMAKE_MODULE_PATH}
