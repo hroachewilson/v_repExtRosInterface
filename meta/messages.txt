@@ -1,5 +1,6 @@
 control_msgs/JointControllerState
 control_msgs/JointTolerance
+control_interface/Excavator_Controller
 diagnostic_msgs/DiagnosticArray
 diagnostic_msgs/DiagnosticStatus
 diagnostic_msgs/KeyValue
