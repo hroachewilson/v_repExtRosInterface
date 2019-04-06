@@ -14,6 +14,7 @@
   <depend>image_transport</depend>
   <depend>tf</depend>
   <depend>actionlib_msgs</depend>
+  <depend>control_interface</depend>
   <depend>control_msgs</depend>
   <depend>diagnostic_msgs</depend>
   <depend>geometry_msgs</depend>
